@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos - Miguel Olmedo Portfólio</title>
+  <meta name="description" content="Conheça os projetos desenvolvidos por Miguel Olmedo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="icon" type="image/svg+xml" href="IMG/code-block-svgrepo-com.svg"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <div class="header-left">
+        <a href="index.html" class="logo"><i class="fa-solid fa-code"></i>Miguel<span>Olmedo</span>.</a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+            <li><a href="projetos.html" class="nav-link active">Projetos</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-socials">
+        <a href="https://github.com/Miguel-Olmedo" target="_blank" class="social-icon-btn">
+          <img src="img/icons8-github-30.png" alt="GitHub" class="header-social-img">
+        </a>
+        <a href="https://www.linkedin.com/in/miguel-olmedo-59a343438/" target="_blank" class="social-icon-btn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="menu-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main style="padding-top: 90px;">
+    <!-- Projetos -->
+    <section id="projetos" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects-grid">
+          <!-- Card 1: Estação Meteorológica (PI) -->
+          <div class="project-card-link" data-project="1"
+            data-title="Estação Meteorológica"
+            data-badge="Projeto Integrador"
+            data-img="img/estacao-meteorologica.pagelab.dev.br_.png"
+            data-live="https://estacao-meteorologica.pagelab.dev.br/"
+            data-repo="https://github.com/Miguel-Olmedo"
+            data-context="Projeto Integrador do curso DSM na Fatec Jahu, com foco em prototipação de interface no Figma, estruturação de requisitos e desenvolvimento de um portal web para exibição de dados climáticos em tempo real."
+            data-role="Pesquisa de requisitos, wireframes no Figma, estruturação do HTML semântico, estilização com CSS, programação da lógica em JavaScript e integração com API de dados meteorológicos."
+            data-tags="HTML, CSS, JavaScript, Figma, API">
+            <div class="project-card">
+              <div class="scroll-preview">
+                <img src="img/estacao-meteorologica.pagelab.dev.br_.png" alt="Estação Meteorológica" class="project-img scroll-preview">
+              </div>
+              <div class="project-content">
+                <h3>Estação Meteorológica <span class="project-badge">Projeto Integrador</span></h3>
+                <p>Projeto Integrador acadêmico com exibição de dados climáticos em tempo real e interface responsiva.</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Site da Padaria -->
+          <div class="project-card-link" data-project="2"
+            data-title="Site da Padaria"
+            data-badge="Acadêmico"
+            data-img="img/padaria.png"
+            data-live="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-repo="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-context="Desenvolvimento de website responsivo para uma padaria local, incluindo catálogo de produtos, horários de funcionamento e integração com pedidos via WhatsApp."
+            data-role="Criação do layout responsivo, desenvolvimento do catálogo de produtos (pães, bolos e doces), exibição de horários de funcionamento e implementação do botão de pedido via WhatsApp."
+            data-tags="HTML, CSS, JavaScript">
+            <div class="project-card">
+              <div class="scroll-preview">
+                <img src="img/padaria.png" alt="Site da Padaria" class="project-img scroll-preview">
+              </div>
+              <div class="project-content">
+                <h3>Site da Padaria</h3>
+                <p>Website responsivo para padaria com catálogo de produtos e pedidos via WhatsApp.</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Sistema de Cadastro -->
+          <div class="project-card-link" data-project="3"
+            data-title="Sistema de Cadastro"
+            data-badge="Acadêmico"
+            data-img="img/cadastro.png"
+            data-live="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-repo="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-context="Desenvolvimento de interface de formulário dinâmico focada em validação de dados e responsividade, utilizando Bootstrap para agilizar a estilização."
+            data-role="Criação de formulários responsivos com Bootstrap, implementação de validação de campos de entrada, manipulação de eventos em JavaScript e adaptação para diferentes tamanhos de tela."
+            data-tags="HTML, Bootstrap, JavaScript">
+            <div class="project-card">
+              <div class="scroll-preview">
+                <img src="img/cadastro.png" alt="Sistema de Cadastro" class="project-img scroll-preview">
+              </div>
+              <div class="project-content">
+                <h3>Sistema de Cadastro</h3>
+                <p>Interface de formulário dinâmico focada em validação de dados e responsividade.</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Portfólio Web -->
+          <div class="project-card-link" data-project="4"
+            data-title="Portfólio Web"
+            data-badge="Pessoal"
+            data-img="img/portfolio-preview.png"
+            data-live="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-repo="https://github.com/Miguel-Olmedo/Sites-Web-Design.git"
+            data-context="Desenvolvimento de portfólio pessoal com arquitetura de múltiplas páginas, animações CSS fluidas e um terminal interativo com efeito de digitação."
+            data-role="Arquitetura multi-página (index, sobre, projetos, contato), animações CSS com keyframes, efeito de máquina de escrever (typewriter) em JavaScript, design responsivo e navegação com menu hambúrguer."
+            data-tags="HTML, CSS, JavaScript">
+            <div class="project-card">
+              <div class="scroll-preview">
+                <img src="img/portfolio-preview.png" alt="Portfólio Web" class="project-img scroll-preview">
+              </div>
+              <div class="project-content">
+                <h3>Portfólio Web</h3>
+                <p>Portfólio pessoal com animações fluidas e design moderno.</p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal de Detalhes do Projeto -->
+    <div class="project-modal" id="project-modal" aria-hidden="true">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div class="modal-box">
+        <button class="modal-close" id="modal-close" aria-label="Fechar">×</button>
+        <div class="modal-img-wrapper">
+          <img src="" alt="" id="modal-img">
+        </div>
+        <div class="modal-body">
+          <div class="modal-header">
+            <h3 id="modal-title"></h3>
+            <span class="project-badge" id="modal-badge"></span>
+          </div>
+          <p id="modal-desc"></p>
+          <div class="modal-details-grid">
+            <div class="detail-item">
+              <strong>Objetivo &amp; Contexto:</strong>
+              <p id="modal-context"></p>
+            </div>
+            <div class="detail-item">
+              <strong>O que foi desenvolvido:</strong>
+              <p id="modal-role"></p>
+            </div>
+          </div>
+          <div class="project-tags" id="modal-tags"></div>
+          <div class="modal-actions">
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary" id="modal-live-btn">Acessar Projeto</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-secondary" id="modal-repo-btn"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-text">&copy; 2026 MiguelDev. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

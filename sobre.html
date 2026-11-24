@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Mim - Miguel Olmedo Portfólio</title>
+  <meta name="description" content="Conheça mais sobre Miguel Olmedo, estudante de Desenvolvimento de Sistemas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="icon" type="image/svg+xml" href="IMG/code-block-svgrepo-com.svg"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <div class="header-left">
+        <a href="index.html" class="logo"><i class="fa-solid fa-code"></i>Miguel<span>Olmedo</span>.</a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li><a href="sobre.html" class="nav-link active">Sobre Mim</a></li>
+            <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-socials">
+        <a href="https://github.com/Miguel-Olmedo" target="_blank" class="social-icon-btn">
+          <img src="img/icons8-github-30.png" alt="GitHub" class="header-social-img">
+        </a>
+        <a href="https://www.linkedin.com/in/miguel-olmedo-59a343438/" target="_blank" class="social-icon-btn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="menu-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sobre Mim -->
+    <section class="sobre about-section" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+
+        <div class="about-grid">
+          <!-- Coluna Esquerda: Texto de apresentação -->
+          <div class="about-text-col">
+            <p>Sou formado no Ensino Médio e, atualmente, estou cursando o primeiro semestre de Desenvolvimento de Software Multiplataforma (DSM) na Fatec Jahu — minha primeira formação técnica e acadêmica na área de tecnologia.</p>
+
+            <p>Ainda não tive experiência profissional no setor de TI, por isso este portfólio representa meus primeiros contatos práticos com o desenvolvimento web. Estou focado em construir uma base sólida em HTML, CSS, JavaScript e lógica de programação, transformando cada aula e desafio em projetos reais para conquistar minha primeira oportunidade na área.</p>
+
+            <div class="mini-timeline">
+              <div class="timeline-step completed">
+                <span class="step-dot"></span>
+                <div class="step-info">
+                  <strong>Ensino Médio</strong>
+                  <span>Concluído</span>
+                </div>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-step active">
+                <span class="step-dot"></span>
+                <div class="step-info">
+                  <strong>Fatec Jahu • DSM</strong>
+                  <span>1º Semestre (Atual)</span>
+                </div>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-step next">
+                <span class="step-dot"></span>
+                <div class="step-info">
+                  <strong>1ª Oportunidade</strong>
+                  <span>Em busca de estágio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Direita: Cards de destaque -->
+          <div class="about-cards-col">
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Fatec Jahu</strong>
+                  <span>1º Semestre • DSM</span>
+                </div>
+              </div>
+              <div class="highlight-card">
+                <i class="fa-solid fa-rocket"></i>
+                <div>
+                  <strong>Primeiro Contato</strong>
+                  <span>Foco em 1ª Oportunidade</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card estilo macOS -->
+            <div class="focus-card">
+              <h3 class="focus-title">Atualmente a Aprender &amp; Desenvolver</h3>
+              <ul class="focus-list">
+                <li><i class="fas fa-code focus-icon"></i> Desenvolvimento Web Multiplataforma</li>
+                <li><i class="fas fa-brain focus-icon"></i> Lógica de Programação</li>
+                <li><i class="fas fa-database focus-icon"></i> Estruturas de Dados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tecnologias e Ferramentas -->
+    <section class="tecnologias skills-section" id="tecnologias">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+
+        <!-- Abas visuais -->
+        <div class="skill-tabs">
+          <button class="skill-tab active" data-tab="tecnologias">Tecnologias</button>
+          <button class="skill-tab" data-tab="ferramentas">Ferramentas &amp; Lógica</button>
+        </div>
+
+        <!-- Bloco: Tecnologias -->
+        <div class="skill-grid" id="tab-tecnologias">
+          <div class="skill-item">
+            <div class="skill-info">
+              <img src="img/html5-original.svg" alt="HTML5" class="skill-icon">
+              <span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <img src="img/css-original.svg" alt="CSS3" class="skill-icon">
+              <span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <img src="img/javascript-original.svg" alt="JavaScript" class="skill-icon">
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="30"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <img src="img/bootstrap-original.svg" alt="Bootstrap" class="skill-icon">
+              <span class="skill-name">Bootstrap</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="60"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+        </div>
+
+        <!-- Bloco: Ferramentas & Lógica (oculto por padrão) -->
+        <div class="skill-grid hidden" id="tab-ferramentas">
+          <div class="skill-item">
+            <div class="skill-info">
+              <i class="fa-solid fa-database skill-icon"></i>
+              <span class="skill-name">Banco de Dados / SQL</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="30"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <i class="fa-solid fa-code skill-icon"></i>
+              <span class="skill-name">VisuAlg</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <img src="img/figma-original.svg" alt="Figma" class="skill-icon">
+              <span class="skill-name">Figma</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="65"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <i class="fa-brands fa-github skill-icon"></i>
+              <span class="skill-name">Git / GitHub</span>
+            </div>
+            <div class="skill-bar-container">
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="55"></div></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-text">&copy; 2026 MiguelDev. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

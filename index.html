@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miguel Olmedo Portfólio</title>
+  <meta name="description" content="Portfólio pessoal minimalista com tema escuro. Desenvolvedor Front-end disponível para projetos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="icon" type="image/svg+xml" href="IMG/code-block-svgrepo-com.svg"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <div class="header-left">
+        <a href="index.html" class="logo"><i class="fa-solid fa-code"></i>Miguel<span>Olmedo</span>.</a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link active">Início</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+            <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-socials">
+        <a href="https://github.com/Miguel-Olmedo" target="_blank" class="social-icon-btn">
+          <img src="img/icons8-github-30.png" alt="GitHub" class="header-social-img">
+        </a>
+        <a href="https://www.linkedin.com/in/miguel-olmedo-59a343438/" target="_blank" class="social-icon-btn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="menu-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <!-- Fundo decorativo: grade pontilhada e trechos de código translúcidos -->
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-code-snippet code-snippet-1">
+        &lt;div class="card"&gt;<br>
+        &nbsp;&nbsp;&lt;h2&gt;Olá, mundo!&lt;/h2&gt;<br>
+        &lt;/div&gt;
+      </div>
+      <div class="hero-code-snippet bg-code-right">
+        <pre><code><span class="code-keyword">function</span> <span class="code-func">init</span>() {
+<span class="code-obj">console</span>.<span class="code-method">log</span>(<span class="code-string">"Portfólio Miguel"</span>);
+<span class="code-keyword">return</span> <span class="code-bool">true</span>;<span class="code-cursor">|</span>
+}</code></pre>
+      </div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">🎓 Estudante de DSM | Primeiro Semestre</span>
+        <h1 class="hero-title">
+          Olá, eu sou o <br />
+          <span class="title-accent">Miguel Olmedo</span>
+        </h1>
+        <p class="hero-subtitle">
+          Estou iniciando minha jornada em desenvolvimento web. Aprendendo a criar páginas com HTML, CSS e JavaScript, sempre buscando melhorar a cada projeto.
+        </p>
+        <div class="hero-actions">
+          <a href="projetos.html" class="btn btn-primary">Ver Projetos</a>
+          <a href="contato.html" class="btn btn-outline">Entrar em Contato</a>
+        </div>
+        <div class="hero-terminal">
+          <span class="terminal-prompt">></span>
+          <span id="typewriter-text" class="terminal-text"></span>
+          <span class="terminal-cursor">_</span>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-wrapper">
+          <!-- Aura radial pulsante atrás da foto -->
+          <div class="aura"></div>
+          <!-- Grade de pontos no canto superior direito -->
+          <div class="dot-grid"></div>
+          <img src="img/perfil.jpg" alt="Foto de perfil de Miguel Olmedo" class="profile-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-text">&copy; 2026 MiguelDev. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
